@@ -16,9 +16,7 @@ public class ItemController {
 
     @GetMapping("/startTask1")
     public String startTask1() {
-        System.out.println(1);
         itemService.startTask1();
-        System.out.println(2);
         return "Task 1 started!";
     }
 
